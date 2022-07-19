@@ -1,11 +1,17 @@
 body {
   margin: 0;
   box-sizing: border-box;
+
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 1) 100%);
+
+  min-height: 100vh;
 }
 
 .page {
   width: 1000px;
-  margin: 65px auto 0;
+  margin: 0 auto;
+
+  padding-top: 65px;
 }
 
 nav {
@@ -27,7 +33,7 @@ nav ul li {
   list-style: none;
 }
 
-nav ul li:nth-child(1) {
+nav ul li:hover {
   opacity: 1;
 }
 
