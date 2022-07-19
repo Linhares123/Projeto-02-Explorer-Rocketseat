@@ -68,6 +68,11 @@ section p {
   line-height: 28px;
 }
 
+  button:hover{
+    background-color: #529e83;
+    transition: .3s;
+  }
+
 button img {
   margin-right: 10px;
 }
